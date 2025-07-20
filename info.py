@@ -61,7 +61,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY','https://t.me/Topdeals_Off') # How to op
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '1502a197c85d59929d50f1cba1d5e6f967d1e962')
-IS_SHORTLINK =  environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK =  environ.get('IS_SHORTLINK', False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
