@@ -55,7 +55,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
-VERIFY = environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = environ.get('VERIFY', False) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY','https://t.me/Topdeals_Off') # How to open tutorial link for verification
 
 # Others
